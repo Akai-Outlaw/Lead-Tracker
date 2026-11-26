@@ -32,7 +32,7 @@ function render(leads) {
             </li>
     `
     }
-    ulE.innerHTML = listItems
+    ulEl.innerHTML = listItems
 }
 deleteBtn.addEventListener("dblclick",function(){
     localStorage.removeItem("myLeads")
